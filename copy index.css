@@ -1,0 +1,59 @@
+.detail{
+ background-color: rgb(238, 232, 232);
+
+}
+
+
+
+    /* features*/
+    .text1{
+      color: black;
+    }
+    .feature-content {
+     height: 250px;
+     overflow-y: scroll;
+    }
+
+    .feature{
+    
+      padding-top: 120px;
+    }
+
+    .profile{
+     
+      margin-top: 60px;
+      
+    }
+
+     .team {
+      height: 500px;
+
+     }
+      
+     .faq{
+      margin-top: 500px;
+      
+     }
+     
+     .pricing {
+      margin-top: -100px;
+     }
+
+    
+     .logo{
+      height: 50px;
+      width: 50px;
+      margin-top: -5px;
+     }
+
+     .shadow {
+      background-color: coral;
+      color: white;
+        animation: mymove 10s infinite;
+
+     }
+     @keyframes mymove {
+      50% {box-shadow: 10px 20px 30px var(--mount-meadow);}
+    }
+     
+    
